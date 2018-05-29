@@ -1,0 +1,62 @@
+<DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+ 
+    <div class="container-fluid header-wrapper">
+        <div class="row">
+          <div class="col-md-12 title">
+            <h1>Rock Paper Scissors</h1>
+          </div>
+        </div>  
+      </div>
+
+      <div id="body-wrapper">
+            <div class="container-fluid name-input-wrapper">
+                    <div class="row">
+                      <div class="col-md-12">
+                            <button class="btn btn-outline-secondary" type="button">Submit</button>
+                        <input type="text" id="nameInput" placeholder="Enter your name">
+                      </div>
+                    </div>  
+                  </div>
+                  <div class="container-fluid game-wrapper">
+                        <div class="row">
+                          <div class="col-md-4 player1" id="player1">
+                                <h2 id="player1Name">Waiting for player 1</h2>
+                                <div id="player1ChoiceDiv">
+                              </div>
+                              </div>
+                          <div class="col-md-4 result">
+                                <h2></h2>
+                          </div>
+                          <div class="col-md-4 player2" id="player2">
+                                <h2 id="player2Name">Waiting for player 2</h2>
+                                <div id="player2ChoiceDiv">
+                                  
+                                </div>
+                          </div>
+                        
+                      </div>
+                      <h1>Firebase Realtime Chat</h1>
+
+                      <div id="messagesDiv"></div>
+                  
+                      <input type="text" id="nameInput" placeholder="Name" />
+                      <input type="text" id="messageInput" placeholder="Message..." />
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body
+{
+    background-color:yellow;
+}
+
+
+.header-wrapper
+{
+    
+    width:100%;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: aquamarine;
+
+}
+.title
+{
+    text-align: center;
+}
+.game-wrapper
+{
+    width: 960px;
+    height: 200px;
+
+}
+.player1,
+.player2,
+.result
+{
+    border-style: solid;
+    border-color: grey;
+    height:100%
+}
