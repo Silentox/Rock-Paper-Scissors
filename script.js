@@ -6,14 +6,8 @@
 
 
 
-var config = {
-    apiKey: "AIzaSyBR-1ereda-njJg3xKO9vxr9F27Mlv0ANI",
-    authDomain: "bootcampproject1-d1260.firebaseapp.com",
-    databaseURL: "https://bootcampproject1-d1260.firebaseio.com",
-    projectId: "bootcampproject1-d1260",
-    storageBucket: "bootcampproject1-d1260.appspot.com",
-    messagingSenderId: "326674258333"
-  };
+//firebase info
+
   firebase.initializeApp(config);
 
 
